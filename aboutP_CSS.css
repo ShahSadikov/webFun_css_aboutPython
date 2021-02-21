@@ -1,0 +1,176 @@
+/* reset */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* WRAPPER */
+#wrapper{
+    width: 970px;
+    margin: 10px auto;
+    background-color: #245076;
+    font-family: sans-serif;
+}
+    #wrapper img{
+        width: 300px;
+        display: inline-block;
+        margin-left: 20px;
+    }
+.header{
+    width: 620px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: right;
+    font-size: small;
+    margin: 10px;
+}
+    .header p{
+        width: 70px;
+        display: inline-block;
+        color: white;
+    }
+    .header a{
+        width: 90px;
+        display: inline-block;
+        color: gold;
+        margin: 0px 10px 5px 0px;
+    }
+    .header a p{
+        width: 2px;
+        display: inline-block;
+        color: black;
+    }
+    .search_container{
+        width: 220px;
+        min-height: 50px;
+        background-color: #444444;
+        box-shadow: 2px 2px 2px black;
+        margin-left: 400px;
+        border-radius: 10px;
+    }
+        .header input{
+            width: 100px;
+            min-height: 20px;
+            margin: 10px 5px 10px 10px;
+            padding: 2px;
+            text-align: center;
+            font-size: 10px;
+        }
+        .header button{
+            width: 30px;
+            color: white;
+            background-color: #245076;
+            border-radius: 3px;
+            vertical-align: top;
+            border: 1px solid silver;
+            font-size: 10px;
+            padding: 5px;
+            box-shadow: 0px 0px 2px silver;
+            margin:12px 20px 10px 0px;
+        }
+/* NAVBAR */
+.navbar{
+    width: 850px;
+    min-height: 30px;
+    margin: 10px auto;
+    background-color: #487FAD;
+    font-size: large;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px black;
+}
+    .navbar ul, .navbar ul li{
+        display: flex;
+        margin: 0px 25px;
+        padding: 5px;
+        color: white;
+    }
+/* BODY */
+.body_list, .body_list ul li{
+    width: 200px;
+    display: inline-block;
+    color: whitesmoke;
+    text-align: center;
+    text-decoration: underline;
+    vertical-align: top;
+    padding: 5px;
+    margin-left: 30px;
+}
+.body_list{
+    margin-top: 20px;
+}
+.body_text, .body_text p, .body_text h4{
+    width: 570px;
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+    color: whitesmoke;
+    margin-bottom: 10px;
+    font-size: small;
+    margin-left: 35px;
+}
+.body_text h4{
+    color: gold;
+    font-size: large;
+    font-weight: normal;
+    font-style: italic;
+    margin: 0px 30px;
+}
+/* WHITE BELT */
+.white_belt{
+    background-color: white;
+    width: 900px;
+    min-height: 200px;
+    font-size: small;
+    padding-left: 70px;
+}
+    .container_1, .container_2{
+        width: 400px;
+        border-top: 5px solid #487FAD;
+        display: inline-block;
+        text-align: center;
+        list-style: outside;
+        margin: 10px 0px 0px 20px;
+        vertical-align: top;
+    }
+    .container_1 h2, .container_2 h2{
+        font-weight: lighter;
+        padding: 5px;
+    }
+    .container_1 p{
+        width: 270px;
+        margin-left: 50px;
+        font-weight: lighter;
+    }
+    .container_2 p{
+        width: 310px;
+        margin-left: 20px;
+        font-weight: lighter;
+    }
+    .container_1 ul, .container_2 ul{
+        width: 230px;
+        margin-left: auto;
+        margin-right: auto;
+        list-style-type: square;
+    }
+    .container_1 span, .container_2 span{
+        color: #A6C6E4;
+    }
+/* FOOTER */
+.footer{
+    background-image: linear-gradient(to bottom, #255177, #3373AD);
+}
+    .footer ul{
+            width: 600px;
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            margin: 30px 0px 10px 200px;
+            padding: 2px;
+            color: #86B8E4;
+        }
+    .footer p{
+            display: block;
+            text-align: center;
+            font-size: 10px;
+            color: #86B8E4;
+            padding-bottom: 5px;
+        }
